@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────
+#  AVADON — .gitignore
+#  C++17 / CMake / Kali Linux
+# ─────────────────────────────────────────
+
+# Build output
+build/
+out/
+bin/
+*.o
+*.a
+*.so
+*.out
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Compiled binaries
+avadon
+run_tests
+
+# Debug / sanitizer artifacts
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Scan result outputs
+*.json
+*.txt
+*.xml
+!README.md
+!CHANGELOG.md
+
+# Logs
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+.cache/
