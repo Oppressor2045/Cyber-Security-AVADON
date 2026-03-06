@@ -217,7 +217,7 @@ CMake 빌드 스크립트. C++17 표준, `Release` / `Debug` 플래그, `Threads
 
 ## Author
 
-**Oppressor2045** — Cyber Security · Game Development
+**Oppressor2045** — Cyber Security
 
 ---
 
